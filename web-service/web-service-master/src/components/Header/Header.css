@@ -1,0 +1,121 @@
+/*.header{
+    width: 15%;
+    margin: 0;
+    padding: 0px !important;
+    height: 100vh;
+    /*position: fixed;
+    background-color: #F8F7FD;
+  }
+*/
+ .pro-sidebar {
+  top: 0;
+  position: sticky ;
+   height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    text-align: left;
+    width: 15% !important;
+    min-width: 15% !important;
+    /*transition: width, left, right, 0.3s;
+    position: relative;
+     z-index: 1009;
+    */
+  }
+
+  
+   .pro-sidebar-inner {
+     height: 100vh;
+    background-color: white !important;
+    box-shadow: 0.5px 0.866px 2px 0px rgba(0, 0, 0, 0.15) !important;
+  }
+   .pro-sidebar-inner .pro-sidebar-layout {
+    
+    overflow-y: hidden;
+  }
+   .pro-sidebar-inner .pro-sidebar-layout .logotext {
+    font-size: 10px;
+    padding: 10px 40px;
+    color: #000 !important;
+     font-family: "Gotham";
+    font-weight: bold;
+  }
+   .pro-sidebar-inner .pro-sidebar-layout ul {
+    padding: 0 5px !important;
+  }
+   .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item {
+    color: #000 !important;
+    margin: 10px 0px !important;
+    font-weight: bold !important;
+  }
+   .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper {
+    background-color:transparent !important;
+    color: #383874 !important;
+    border-radius: 3px !important;
+  }
+  /* .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper .pro-item-content {
+    color: #000 !important;
+  } */
+
+ .pro-sidebar-inner .pro-sidebar-layout ul .pro-inner-item .pro-icon-wrapper svg {
+    width: 1.5em !important;
+    height: 1.5em  !important;
+  }
+
+
+ .pro-sidebar-inner .pro-sidebar-layout .active {
+   /* background-color: #8675FF !important;*/
+    color: #8675FF  !important;
+  }
+  
+.logo {
+    padding: 20px !important;
+  }
+  .btn-toggle {
+    cursor: pointer;
+    width: 40px !important;
+    height: 40px;
+    background: var(--night-blue);
+    color: #fff;
+    text-align: center;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    padding: 5px;
+    margin: 4px;
+    display: none;
+    position: fixed;
+  }
+
+.pro-sidebar .pro-menu .pro-menu-item > .pro-inner-item:hover {
+    color: #000 !important; 
+}
+
+
+ .pro-sidebar .pro-menu > ul > .pro-sub-menu > .pro-inner-list-item {
+    background-color: white !important;
+   /* color: black;*/
+  }
+  a{
+    font-family: "Gotham";
+  }
+
+
+
+  @media only screen and (max-width: 720px) {
+    html {
+      overflow: hidden;
+    }
+  }
+
+  @media only screen and (max-width: 768px) {
+    .btn-toggle {
+      display: flex;
+    }
+    .pro-sidebar{
+      
+      width: 205px !important;
+    }
+ 
+  }

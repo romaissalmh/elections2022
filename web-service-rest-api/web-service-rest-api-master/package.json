@@ -1,0 +1,53 @@
+{
+  "name": "web-service-rest-api",
+  "version": "1.0.0",
+  "description": "web service rest api",
+  "main": "./src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon --exec babel-node ./src/index.js"
+  },
+  "author": "Kessi Romaissa <romaissa.kessi@gmail.com> ",
+  "license": "ISC",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "keywords": [
+    "node",
+    "node.js",
+    "express",
+    "rest",
+    "api",
+    "mysql",
+    "es6",
+    "sequelize",
+    "joi"
+  ],
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "devDependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.1",
+    "cors": "^2.8.5",
+    "cros": "^1.0.1",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "joi": "^17.5.0",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "@babel/cli": "^7.16.0",
+    "@babel/core": "^7.16.5",
+    "@babel/node": "^7.16.5",
+    "@babel/plugin-transform-flow-strip-types": "^7.16.5",
+    "@babel/preset-env": "^7.16.5",
+    "mysql2": "^2.3.3",
+    "rimraf": "^3.0.2",
+    "sequelize": "^6.12.0-beta.3"
+  }
+}

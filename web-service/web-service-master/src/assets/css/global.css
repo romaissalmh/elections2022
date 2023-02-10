@@ -1,0 +1,13 @@
+:root{
+  --c-title:#12142D;
+  --c-body1: #92929E;
+  --c-body2: #9A9BB0;
+  --purple: #5541D8;
+  --primary: #181485;
+  --secondary: #0C528E; 
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+}
