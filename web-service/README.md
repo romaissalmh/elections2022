@@ -1,6 +1,6 @@
 # Front-end side of elections2022
 
-This project the React.JS code of https://elections2022.imag.fr/
+This project contains the Front-end of our web service https://elections2022.imag.fr/ made using React.JS
 
 In the project directory, you can run:
 
